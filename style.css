@@ -3,6 +3,34 @@
     padding: 0;
 }
 
-.buttons {
+body {
+    align-items: center;
+    background: #3d692b;
+}
+
+header {
+    text-align: center;
+    color: #ffffff;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttonboard {
+    width: 100%;
+}
+
+#answerField{
+    margin: auto;
+    background-color: white;
+    max-width: 300px;
+}
+
+#buttons {
+    margin: auto;
     display: grid;
+    background: #c8d647;
+    grid-template-columns: 20% 20% 20%;
+    justify-content: space-around;
+    grid-template-rows: 50px 50px 50px 50px;
+    max-width: 300px;
 }
