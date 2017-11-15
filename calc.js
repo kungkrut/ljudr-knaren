@@ -7,37 +7,18 @@ var answer = 0;
 buttons.addEventListener("click", handleClick);
 
 function division() {
-<<<<<<< HEAD
-    answer = firstNumber/secondNumber;
+    answer = firstNumber / secondNumber;
 }
 
 function add() {
-    answer = firstNumber+secondNumber;
-}
-
-function subtract(){
-    answer = firstNumber-secondNumber;
-}
-function multiply(){
-    answer = firstNumber*secondNumber;
-}
-
-function equals(){
-    
-=======
-    return firstNumber / secondNumber;
-}
-
-function add() {
-    return firstNumber + secondNumber;
+    answer = firstNumber + secondNumber;
 }
 
 function subtract() {
-    return firstNumber - secondNumber;
+    answer = firstNumber - secondNumber;
 }
 function multiply() {
-    return firstNumber * secondNumber;
->>>>>>> 6829b676030003f445e197a6c9437d88a8e32f29
+    answer = firstNumber * secondNumber;
 }
 
 function handleClick(event) {
