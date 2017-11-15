@@ -5,18 +5,18 @@ var secondNumber;
 buttons.addEventListener("click", handleClick);
 
 function division() {
-    return firstNumber/secondNumber;
+    return firstNumber / secondNumber;
 }
 
 function add() {
-    return firstNumber+secondNumber;
+    return firstNumber + secondNumber;
 }
 
-function subtract(){
-    return firstNumber-secondNumber;
+function subtract() {
+    return firstNumber - secondNumber;
 }
-function multiply(){
-    return firstNumber*secondNumber;
+function multiply() {
+    return firstNumber * secondNumber;
 }
 
 function handleClick(event) {
@@ -78,6 +78,18 @@ function buttonHandler(button) {
         case document.getElementById("comma"):
             firstNumber = secondNumber;
             secondNumber = 0;
+            break;
+        case document.getElementById("add"):
+            add();
+            break;
+        case document.getElementById("subtract"):
+            subtract();
+            break;
+        case document.getElementById("division"):
+            division();
+            break;
+        case document.getElementById("multiply"):
+            multiply();
             break;
 
     }
