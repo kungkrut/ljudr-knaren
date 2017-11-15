@@ -1,3 +1,9 @@
+var buttons = document.getElementById("buttons");
+var firstNumber;
+var secondNumber;
+
+buttons.addEventListener("click", handleClick);
+
 function division(firstNumber, secondNumber) {
     return firstNumber/secondNumber;
 }
@@ -5,25 +11,13 @@ function division(firstNumber, secondNumber) {
 function add(firstNumber, secondNumber) {
     return firstNumber+secondNumber;
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> fac45a3c90f792e2dc80a41679df1334bcb88e87
-/*var zeroBtn = document.getElementById("zero");
-var oneBtn = document.getElementById("one");
-var twoBtn = document.getElementById("two");
-var threeBtn = document.getElementById("three");
-var fourBtn = document.getElementById("four");
-var fiveBtn = document.getElementById("five");
-var sixBtn = document.getElementById("six");
-var sevenBtn = document.getElementById("seven");
-var eightBtn = document.getElementById("eight");
-var nineBtn = document.getElementById("nine");
-var commaBtn = document.getElementById("comma");*/
-
-var buttons = document.getElementById("buttons");
-
-buttons.addEventListener("click", handleClick);
+function subtract(a,b){
+    return a-b;
+}
+function multiply(a,b){
+    return a*b;
+}
 
 function handleClick(event) {
     event.target = event.target
@@ -31,7 +25,6 @@ function handleClick(event) {
 
     while (element) {
         if (element.nodeName === "BUTTON") {
-            console.log('hej');
             buttonHandler(element);
             break;
         }
@@ -42,20 +35,50 @@ function handleClick(event) {
 
 function buttonHandler(button) {
     switch (button) {
-        case 
+        case document.getElementById("zero"):
+            firstNumber = secondNumber;
+            secondNumber = 0;
+            break;
+        case document.getElementById("one"):
+            firstNumber = secondNumber;
+            secondNumber = 1;
+            break;
+        case document.getElementById("two"):
+            firstNumber = secondNumber;
+            secondNumber = 2;
+            break;
+        case document.getElementById("three"):
+            firstNumber = secondNumber;
+            secondNumber = 3;
+            break;
+        case document.getElementById("four"):
+            firstNumber = secondNumber;
+            secondNumber = 4;
+            break;
+        case document.getElementById("five"):
+            firstNumber = secondNumber;
+            secondNumber = 5;
+            break;
+        case document.getElementById("six"):
+            firstNumber = secondNumber;
+            secondNumber = 6;
+            break;
+        case document.getElementById("seven"):
+            firstNumber = secondNumber;
+            secondNumber = 7;
+            break;
+        case document.getElementById("eight"):
+            firstNumber = secondNumber;
+            secondNumber = 8;
+            break;
+        case document.getElementById("nine"):
+            firstNumber = secondNumber;
+            secondNumber = 9;
+            break;
+        case document.getElementById("comma"):
+            firstNumber = secondNumber;
+            secondNumber = 0;
+            break;
 
     }
 }
-
-
-function subtract(a,b){
-    return a-b;
-}
-<<<<<<< HEAD
-=======
-
-function multiply(a,b){
-    return a*b;
-
-}
->>>>>>> fac45a3c90f792e2dc80a41679df1334bcb88e87
