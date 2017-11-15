@@ -1,3 +1,11 @@
+function division(firstNumber, secondNumber) {
+    return firstNumber/secondNumber;
+}
+
+function add(firstNumber, secondNumber) {
+    return firstNumber+secondNumber;
+}
+
 /*var zeroBtn = document.getElementById("zero");
 var oneBtn = document.getElementById("one");
 var twoBtn = document.getElementById("two");
@@ -43,4 +51,5 @@ function subtract(a,b){
 
 function multiply(a,b){
     return a*b;
+
 }
