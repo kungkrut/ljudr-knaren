@@ -4,6 +4,21 @@ var secondNumber;
 
 buttons.addEventListener("click", handleClick);
 
+function division(firstNumber, secondNumber) {
+    return firstNumber/secondNumber;
+}
+
+function add(firstNumber, secondNumber) {
+    return firstNumber+secondNumber;
+}
+
+function subtract(a,b){
+    return a-b;
+}
+function multiply(a,b){
+    return a*b;
+}
+
 function handleClick(event) {
     event.target = event.target
     var element = event.target;
@@ -66,8 +81,4 @@ function buttonHandler(button) {
             break;
 
     }
-}
-
-function subtract(a, b) {
-    return a * b;
 }
