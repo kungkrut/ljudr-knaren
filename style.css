@@ -19,6 +19,12 @@ header {
     width: 100%;
 }
 
+#answerField{
+    margin: auto;
+    background-color: white;
+    max-width: 300px;
+}
+
 #buttons {
     margin: auto;
     display: grid;
