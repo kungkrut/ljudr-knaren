@@ -35,15 +35,17 @@ header {
 }
 
 .addingNumbers {
+    margin: auto;
     height: 90px;
     width: 500px;
     background: #ffffff;
 }
 
 .math {
-    width: 100px;
+    width: 20%;
+    height: 90px;
 }
 
 #equals {
-    
+    width: 100%;
 }
