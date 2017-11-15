@@ -4,19 +4,19 @@ var secondNumber;
 
 buttons.addEventListener("click", handleClick);
 
-function division(firstNumber, secondNumber) {
+function division() {
     return firstNumber/secondNumber;
 }
 
-function add(firstNumber, secondNumber) {
+function add() {
     return firstNumber+secondNumber;
 }
 
-function subtract(a,b){
-    return a-b;
+function subtract(){
+    return firstNumber-secondNumber;
 }
-function multiply(a,b){
-    return a*b;
+function multiply(){
+    return firstNumber*secondNumber;
 }
 
 function handleClick(event) {
