@@ -113,7 +113,7 @@ function buttonHandler(button) {
             break;
         case document.getElementById("add"):
             add();
-            add.play();
+            plus.play();
             break;
         case document.getElementById("subtract"):
             subtract();
