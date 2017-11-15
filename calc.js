@@ -32,3 +32,7 @@ function handleClick(event) {
 function buttonHandler(element) {
     
 }
+
+function subtract(a,b){
+    return a*b;
+}
