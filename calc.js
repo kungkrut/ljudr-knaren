@@ -29,14 +29,18 @@ function handleClick(event) {
     }
 }
 
-function buttonHandler(element) {
-    
+function buttonHandler(button) {
+    switch (button) {
+        case 
+
+    }
 }
+
 
 function subtract(a,b){
     return a-b;
 }
 
-function multi(a,b){
+function multiply(a,b){
     return a*b;
 }
