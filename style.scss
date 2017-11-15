@@ -17,6 +17,7 @@ header {
 
 #buttonboard {
     width: 100%;
+    margin: auto;
 }
 
 #answerField{
@@ -50,7 +51,7 @@ header {
 
 //=== Drawing effect
 
-@mixin btn-border-drawing($color: #ccc, $hover: black, $width: 2px, $vertical: top, $horizontal: left, $duration: 0.25s) {
+@mixin btn-border-drawing($color: rgb(194, 11, 11), $hover: black, $width: 2px, $vertical: top, $horizontal: left, $duration: 0.25s) {
     box-shadow: inset 0 0 0 $width $color;
     color: $color;
     transition: color $duration $duration/3;
@@ -101,12 +102,11 @@ header {
   }
   
   .draw-border {
-    @include btn-border-drawing(#58afd1, #ffe593, 4px, bottom, right);
+    @include btn-border-drawing(#0b00a3, #c11ec7, 4px, bottom, right);
   }
-  
-  //=== Button styling, semi-ignore
   .btn {
-    background: none;
+      padding: 5px;
+    background: #554af3;
     border: none;
     cursor: pointer;
     line-height: 1.5;
