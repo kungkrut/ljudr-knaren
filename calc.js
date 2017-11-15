@@ -7,6 +7,7 @@ var answer = 0;
 buttons.addEventListener("click", handleClick);
 
 function division() {
+<<<<<<< HEAD
     answer = firstNumber/secondNumber;
 }
 
@@ -23,6 +24,20 @@ function multiply(){
 
 function equals(){
     
+=======
+    return firstNumber / secondNumber;
+}
+
+function add() {
+    return firstNumber + secondNumber;
+}
+
+function subtract() {
+    return firstNumber - secondNumber;
+}
+function multiply() {
+    return firstNumber * secondNumber;
+>>>>>>> 6829b676030003f445e197a6c9437d88a8e32f29
 }
 
 function handleClick(event) {
@@ -84,6 +99,18 @@ function buttonHandler(button) {
         case document.getElementById("comma"):
             firstNumber = secondNumber;
             secondNumber = 0;
+            break;
+        case document.getElementById("add"):
+            add();
+            break;
+        case document.getElementById("subtract"):
+            subtract();
+            break;
+        case document.getElementById("division"):
+            division();
+            break;
+        case document.getElementById("multiply"):
+            multiply();
             break;
 
     }
