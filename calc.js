@@ -1,5 +1,5 @@
 var buttons = document.getElementById("buttons");
-var answerField = document.getElementById
+var answerField = document.getElementById("answerField");
 var firstNumber;
 var secondNumber;
 var answer = 0;
@@ -7,18 +7,22 @@ var answer = 0;
 buttons.addEventListener("click", handleClick);
 
 function division() {
-    answer = firstNumber / secondNumber;
+    answer = firstNumber/secondNumber;
 }
 
 function add() {
-    answer = firstNumber + secondNumber;
+    answer = firstNumber+secondNumber;
 }
 
-function subtract() {
-    answer = firstNumber - secondNumber;
+function subtract(){
+    answer = firstNumber-secondNumber;
 }
-function multiply() {
-    answer = firstNumber * secondNumber;
+function multiply(){
+    answer = firstNumber*secondNumber;
+}
+
+function equals(){
+    answerField.innerText = answer;
 }
 
 function handleClick(event) {
